@@ -105,7 +105,7 @@ const Projects = () => {
     data-aos="fade-up"
   >
     <img
-      className="w-full sm:w-1/2 h-[300px] m-4 object-cover rounded-xl"
+      className="w-full sm:w-1/2 h-[300px] p-2 object-cover rounded-xl"
       src="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg"
       data-aos="fade-right"
       alt="Image 1"

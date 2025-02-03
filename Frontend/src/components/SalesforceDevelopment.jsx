@@ -37,7 +37,7 @@ const SalesforceDevelopment = () => {
             <div className="flex flex-wrap justify-center gap-8" data-aos="fade-left">
                            
                 <div className="mt-10">
-                    <div className="bg-gradient-to-r from-gray-600 to-black  p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
+                    <div className="bg-gradient-to-r   p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
                         <MdOutlineSettingsInputComponent className="text-7xl"/>
                         <h3 className="text-2xl font-semibold mb-4 text-accent">Customization Services</h3>
                         <p className="text-lg">
@@ -46,7 +46,7 @@ const SalesforceDevelopment = () => {
                  </div>
             
                      
-                 <div className="bg-gradient-to-r from-teal-700 to-black mt-6 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
+                 <div className="bg-gradient-to-r  mt-6 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
                     <FaLaptopCode className="text-7xl"/>
                         <h3 className="text-2xl font-semibold mb-4 text-accent">Development</h3>
                             <p className="text-lg">
@@ -57,7 +57,7 @@ const SalesforceDevelopment = () => {
             
                            
             <div className="mt-10">
-                    <div className="bg-gradient-to-r from-emerald-700 to-black p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
+                    <div className="bg-gradient-to-r  p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
                         <FaArrowsTurnToDots className="text-7xl"/>
                         <h3 className="text-2xl font-semibold mb-4 text-accent">Migration</h3>
                          <p className="text-lg">
@@ -66,15 +66,15 @@ const SalesforceDevelopment = () => {
                         </div>
             
                              
-                        <div className="bg-gradient-to-r from-purple-700 to-black mt-6 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
-                            <MdOutlineIntegrationInstructions className="text-7xl" data-aos="fade-left"/>
-                            <h3 className="text-2xl font-semibold mb-4 text-accent">Integration</h3>
-                            <p className="text-lg" data-aos="fade-left">
-                                Supercharge your running applications by integrating them with Salesforce, unlocking relentless management efficiency and boundless innovation opportunities!
-                            </p>
-                            </div>
-                    </div>
-                </div>
+       <div className="bg-gradient-to-r mt-6 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-300 ease-in-out w-80" data-aos="fade-left">
+         <MdOutlineIntegrationInstructions className="text-7xl" data-aos="fade-left"/>
+         <h3 className="text-2xl font-semibold mb-4 text-accent">Integration</h3>
+          <p className="text-lg" data-aos="fade-left">
+            Supercharge your running applications by integrating them with Salesforce, unlocking relentless management efficiency and boundless innovation opportunities!
+            </p>
+          </div>
+          </div>
+          </div>
     
     
                 <div className="w-full">

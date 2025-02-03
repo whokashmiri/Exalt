@@ -15,6 +15,11 @@ export const Address = () => {
     useEffect(() => {
       AOS.init({ duration: 1000 });
     }, []);
+
+    const date = new Date();
+   const year = date.getFullYear()
+    console.log(year);
+    
   return (
     <>
 
@@ -37,9 +42,9 @@ export const Address = () => {
          <h1 className="text-xl font-bold ">HEAD OFFICE</h1>
          <p className="text-lg ">
            Office No. 136 & 137, First Floor, Right Wing,
-           <br /> Arish Complex, Model Town-D, Sopore,
-           <br /> Baramulla J&K 19320
-         </p>
+            </p>
+         <p className="text-lg "> Arish Complex, Model Town-D, Sopore, </p>
+         <p className="text-lg "> Baramulla J&K 19320 </p>
          
        </div>
 
@@ -55,12 +60,11 @@ export const Address = () => {
         </div>
          <h1 className="text-xl font-bold uppercase">Branch Office USA</h1>
          <p className="text-lg ">
-         3255 Normandy Woods
-           <br /> Dr. Ellicott City Maryland,
-           <br />  MD 21043, USA
-           <br />  
-           <br />  +1-443-851-3193
+         3255 Normandy Woods  
          </p>
+         <p> Dr. Ellicott City Maryland,</p>
+         <p>MD 21043, USA</p>
+         <p>+1-443-851-3193</p>
          
        </div>
     
@@ -83,7 +87,7 @@ export const Address = () => {
            <br /> Pune 411060
          </p>
          <p className="text-lg ">sales@exaltsystem.com</p>
-         <p className="text-lg ">+91-1954358794 / +91-7006334491</p>
+         <p className="text-lg "> +91-7006334491</p>
          
        </div>
 
@@ -96,7 +100,7 @@ export const Address = () => {
      
      <div className=" mt-10 py-4">
        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm px-6 space-y-2 md:space-y-0">
-         <p className="">&copy; 2023 ExaltSystem LLP</p>
+         <p className="">&copy; {year} ExaltSystem LLP</p>
          <div className="flex space-x-4">
            <p className=" hover:text-gray-700 cursor-pointer">Privacy Policy</p>
            <p className=" hover:text-gray-700 cursor-pointer">Cookie Policy</p>

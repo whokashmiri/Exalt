@@ -101,7 +101,7 @@ const Projects = () => {
       {/* Card 4 */}
       <div className="sm:flex-row bg-gradient-to-r from-accent via-primary to-black flex flex-col md:flex-row items-center justify-between rounded-3xl">
   <div
-    className="shadow-lg rounded-lg overflow-hidden h-auto flex flex-col sm:flex-row"
+    className="shadow-lg rounded-lg overflow-hidden h-auto flex flex-col sm:flex-row items-center"
     data-aos="fade-up"
   >
     <img

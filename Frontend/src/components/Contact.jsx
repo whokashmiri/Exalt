@@ -27,7 +27,7 @@ const Contact = () => {
         <form
           action="https://formsubmit.co/sales@exaltsystem.com" method="POST"
          
-          className=" backdrop-blur-lg p-4  rounded-lg shadow-xl border border-white/30 space-y-6"
+          className=" backdrop-blur-lg p-4  rounded-lg shadow-xl border  space-y-6"
         >
   
 
@@ -37,7 +37,7 @@ const Contact = () => {
               type="text"
               name="fullName"
               placeholder="Full Name"
-              className="w-full px-4 py-3 bg-transparent text-white border border-white/30 rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none placeholder-white/80 transition duration-300 ease-in-out z-50"
+              className="w-full px-4 py-3 bg-transparent    rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out z-50"
               required
             />
           </div>
@@ -48,7 +48,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Your Email"
-              className="w-full px-4 py-3 bg-transparent text-white border border-white/30 rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none placeholder-white/80 transition duration-300 ease-in-out"
+              className="w-full px-4 py-3 bg-transparent  rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none transition duration-300 ease-in-out"
               required
             />
           </div>
@@ -59,7 +59,7 @@ const Contact = () => {
               type="tel"
               name="phone"
               placeholder="Phone Number"
-              className="w-full px-4 py-3 bg-transparent text-white border border-white/30 rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none placeholder-white/80 transition duration-300 ease-in-out"
+              className="w-full px-4 py-3 bg-transparent rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out"
               required
             />
           </div>
@@ -70,7 +70,7 @@ const Contact = () => {
               name="message"
               placeholder="Your Message"
               rows="4"
-              className="w-full px-4 py-3 bg-transparent text-white border border-white/30 rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none placeholder-white/80 transition duration-300 ease-in-out"
+              className="w-full px-4 py-3  bg-transparent rounded-2xl focus:ring-2 focus:ring-accent focus:outline-none  transition duration-300 ease-in-out"
               required
             >
 

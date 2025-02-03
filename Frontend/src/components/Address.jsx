@@ -43,18 +43,26 @@ export const Address = () => {
          
        </div>
 
-       <div  className="flex flex-col items-start space-y-4 ml-8 bg-contain  mt-16">
+       <div  className="flex flex-col items-start space-y-4 ml-0 bg-contain  mt-0">
 
-       <div className=" h-full rounded-2xl">
-          <iframe
-            title="Map to My Location"
-           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7050.954477782946!2d74.43927901790236!3d34.30651944479686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e10fb052de0635%3A0xafe9d668178d6d84!2sGoExalt%20System%20LLC!5e0!3m2!1sen!2sin!4v1737605539647!5m2!1sen!2sin"
-            className="w-full h-full border-0 rounded-2xl"
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
+       <div className="flex flex-col space-y-4 ml-8 mt-16" data-aos="fade-up">
+       <div className="flex items-center bg-red space-x-2 rounded-full">
+          <div className="h-16 w-16 bg-accent flex items-center justify-center rounded-full">
+          <GiTreeBranch className="text-3xl " />
+          </div>
+      
+
         </div>
+         <h1 className="text-xl font-bold uppercase">Branch Office USA</h1>
+         <p className="text-lg ">
+         3255 Normandy Woods
+           <br /> Dr. Ellicott City Maryland,
+           <br />  MD 21043, USA
+           <br />  
+           <br />  +1-443-851-3193
+         </p>
+         
+       </div>
     
          
        </div>
@@ -69,9 +77,9 @@ export const Address = () => {
 
         </div>
          
-         <h1 className="text-xl font-bold  ">BRANCH OFFICE</h1>
+         <h1 className="text-xl font-bold  ">BRANCH OFFICE IND</h1>
          <p className="text-lg ">
-           602 - Chester, Nyati Eternity, Pune 411060,
+           602 - Chester, Nyati Eternity,
            <br /> Pune 411060
          </p>
          <p className="text-lg ">sales@exaltsystem.com</p>
